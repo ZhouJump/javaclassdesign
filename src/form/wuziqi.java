@@ -22,7 +22,7 @@ public class wuziqi extends JFrame {
         Container contentPane = getContentPane();
         contentPane.setLayout(null);
 
-        contentPane.setPreferredSize(new Dimension(400, 300));
+        contentPane.setPreferredSize(new Dimension(560, 400));
         pack();
         setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
