@@ -1,0 +1,3981 @@
+JFDML JFormDesigner: "8.0.2.0.220" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"title": "五子棋"
+			"resizable": false
+			"defaultCloseOperation": 3
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "pad"
+				"enabled": false
+				"opaque": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "padMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 475
+				"height": 470
+				"x": 5
+				"y": 5
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan1"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 0, 12, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 30
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan2"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan3"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"x": 50
+					"y": 0
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan4"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan5"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan6"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan7"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan8"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan9"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan10"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan11"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan12"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan13"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan14"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan15"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan16"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan17"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan18"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan19"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan20"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan21"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan22"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan23"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan24"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan25"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan26"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan27"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan28"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan29"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan30"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan31"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan32"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan33"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan34"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan35"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan36"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan37"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan38"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan39"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan40"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan41"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan42"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan43"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan44"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan45"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan46"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan47"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan48"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan49"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan50"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan51"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan52"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan53"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan54"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 50
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan55"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan56"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan57"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan58"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan59"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan60"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan61"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan62"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan63"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan64"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan65"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan66"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan67"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan68"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan69"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan70"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan71"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan72"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 75
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan73"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan74"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan75"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan76"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan77"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan78"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan79"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan80"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan81"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan82"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan83"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan84"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan85"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan86"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan87"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan88"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan89"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan90"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan91"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan92"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan93"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan94"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan95"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan96"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan97"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan98"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan99"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan100"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan101"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan102"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan103"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan104"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan105"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan106"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan107"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan108"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 125
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan109"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan110"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan111"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan112"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan113"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan114"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan115"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan116"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan117"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan118"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan119"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan120"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan121"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan122"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan123"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan124"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan125"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan126"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 150
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan127"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan128"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan129"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan130"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan131"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan132"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan133"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan134"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan135"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan136"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan137"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan138"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan139"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan140"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan141"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan142"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan143"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan144"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 175
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan145"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan146"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan147"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan148"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan149"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan150"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan151"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan152"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan153"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan154"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan155"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan156"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan157"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan158"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan159"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan160"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan161"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan162"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 200
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan163"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan164"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan165"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan166"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan167"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan168"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan169"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan170"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan171"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan172"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan173"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan174"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan175"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan176"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan177"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan178"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan179"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan180"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 225
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan181"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan182"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan183"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan184"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan185"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan186"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan187"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan188"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan189"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan190"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan191"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan192"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan193"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan194"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan195"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan196"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan197"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan198"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 250
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan199"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan200"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan201"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan202"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan203"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan204"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan205"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan206"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan207"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan208"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan209"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan210"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan211"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan212"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan213"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan214"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan215"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan216"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 275
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan217"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan218"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan219"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan220"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan221"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan222"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan223"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan224"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan225"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan226"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan227"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan228"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan229"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan230"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan231"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan232"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan233"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan234"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 300
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan235"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan236"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan237"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan238"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan239"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan240"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan241"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan242"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan243"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan244"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan245"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan246"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan247"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan248"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan249"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan250"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan251"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan252"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 325
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan253"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan254"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan255"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan256"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan257"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan258"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan259"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan260"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan261"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan262"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan263"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan264"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan265"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan266"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan267"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan268"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan269"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan270"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 350
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan271"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan272"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan273"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan274"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan275"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan276"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan277"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan278"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan279"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan280"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan281"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan282"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan283"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan284"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan285"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan286"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan287"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan288"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 375
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan289"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan290"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan291"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan292"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan293"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan294"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan295"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan296"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan297"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan298"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan299"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan300"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan301"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan302"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan303"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan304"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan305"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan306"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 395
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan307"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 0
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan308"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 25
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan309"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 50
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan310"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 75
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan311"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 100
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan312"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 125
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan313"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 150
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan314"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 175
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan315"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 200
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan316"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 225
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan317"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 250
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan318"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 275
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan319"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 300
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan320"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 325
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan321"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 350
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan322"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 375
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan323"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 400
+					"y": 420
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "qipan324"
+					"editable": false
+					"enabled": false
+					"horizontalAlignment": 0
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 30
+					"height": 30
+					"x": 425
+					"y": 420
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 15
+				"y": 15
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "qipan0"
+				"enabled": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 5
+				"width": 475
+				"height": 470
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "restart"
+				"text": "重新开始"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "restartMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 485
+				"y": 5
+				"width": 120
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "undo"
+				"text": "悔棋"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 485
+				"y": 50
+				"width": 120
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "player"
+				"text": "●"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 50, false )
+				"horizontalAlignment": 0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 510
+				"y": 95
+				"width": 70
+				"height": 65
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "panetext"
+				"text": "请落子"
+				"horizontalAlignment": 0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 510
+				"y": 160
+				"width": 70
+				"height": 30
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "pane"
+				"enabled": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 485
+				"y": 95
+				"width": 120
+				"height": 100
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 615, 510 )
+		} )
+	}
+}
